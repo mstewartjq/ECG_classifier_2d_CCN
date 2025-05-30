@@ -15,3 +15,7 @@ There is also code to shape the dataset found here: https://physionet.org/conten
 
 There is options for fine-tuning with frozen weights or not, I found better results when full weights were retrained.
 
+To use the original code base data prep, use 'Data-different-leads.ipynb'
+'Task3_Data_Prep.ipynb' will prep for the seven classes for the fine-tuned model.
+'Classification_Model_Finetune.ipynb' can be used for fine-tuning or training the model.
+'Main.ipynb' contains code for benchmarking the model as well as code for analysing single instances of ECGs with explanation. It assumes that the ECG has been converted to numpy array already.
